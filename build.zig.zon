@@ -1,0 +1,18 @@
+.{
+    .name = "logger",
+    .version = "1.0.0",
+    .dependencies = .{
+        .backtrace = .{
+            .url = "https://github.com/DivisionLogic/backtrace/archive/refs/tags/1.0.0.tar.gz",
+            .hash = "1220dee3ea4bc030fb1cf9a516c1917a144f83f88a5da4d38dbf8259db1ecc15b16c",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "assets",
+    },
+}
